@@ -21,7 +21,7 @@ Mientras se cargan los datos se muestra un mensaje de carga y, si ocurre un erro
 
 ### Imágenes
 
-Algunas imágenes de presidentes que entrega la API no cargan, porque el archivo ya no existe o el enlace dejó de funcionar. Esas imágenes se reemplazaron por enlaces válidos de Wikimedia Commons y de la Enciclopedia del Banco de la República. Para los presidentes encargados de los que no existen fotos públicas se muestra una imagen genérica de "sin foto".
+Algunas imágenes de presidentes que entrega la API no cargan o no existen, porque el archivo fue eliminado o el enlace dejó de funcionar. Esas imágenes se reemplazaron por enlaces válidos de Wikimedia Commons, de la Enciclopedia del Banco de la República y del archivo audiovisual de la Universidad Icesi. Si alguna imagen deja de cargar, se muestra una imagen genérica de "sin foto".
 
 ## Tecnologías usadas
 

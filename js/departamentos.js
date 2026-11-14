@@ -25,10 +25,10 @@ function crearTarjeta(departamento, regiones) {
   region.textContent = `Región: ${obtenerNombreRegion(regiones, departamento.regionId)}`;
 
   const poblacion = document.createElement("p");
-  poblacion.textContent = `Población: ${departamento.population} habitantes`;
+  poblacion.textContent = `Población: ${departamento.population.toLocaleString("es-CO")} habitantes`;
 
   const superficie = document.createElement("p");
-  superficie.textContent = `Superficie: ${departamento.surface} km²`;
+  superficie.textContent = `Superficie: ${departamento.surface.toLocaleString("es-CO")} km²`;
 
   const descripcion = document.createElement("p");
   descripcion.classList.add("descripcion");
