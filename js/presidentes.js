@@ -43,6 +43,10 @@ function crearTarjeta(presidente) {
   return tarjeta;
 }
 
+function ordenarPorAnio(presidentes) {
+  presidentes.sort((a, b) => new Date(a.startPeriodDate) - new Date(b.startPeriodDate));
+}
+
 function mostrarPresidentes(presidentes) {
   for (const presidente of presidentes) {
     const tarjeta = crearTarjeta(presidente);
@@ -56,6 +60,7 @@ async function cargarPresidentes() {
   const response = await fetch(URL_PRESIDENTES);
   const presidentes = await response.json();
 
+  ordenarPorAnio(presidentes);
   mostrarPresidentes(presidentes);
   mensaje.textContent = "";
 }
