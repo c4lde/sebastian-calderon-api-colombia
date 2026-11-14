@@ -3,7 +3,7 @@ const IMAGEN_RESPALDO = "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_
 
 const IMAGENES_REEMPLAZO = {
   4: "https://upload.wikimedia.org/wikipedia/commons/7/70/Carlos_Holgu%C3%ADn_Mallarino_oleo.jpg",
-  9:"https://upload.wikimedia.org/wikipedia/commons/e/ee/Museo_Nacional_-_Guillermo_Quintero_Calderon.JPG",
+  9: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Museo_Nacional_-_Guillermo_Quintero_Calderon.JPG",
   17: "https://upload.wikimedia.org/wikipedia/commons/6/68/Jose_Vicente_Concha_LCCN20146960911.jpg",
   21: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Miguel_Abad%C3%ADa_M%C3%A9ndez.jpg",
   22: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Enrique_Olaya_Herrera_1.jpg",
@@ -22,6 +22,7 @@ const IMAGENES_REEMPLAZO = {
   37: "https://upload.wikimedia.org/wikipedia/commons/f/fe/Carlos_Lleras_Restrepo_1.jpg",
   38: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Misael_Pastrana.JPG",
   40: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Alfonso_L%C3%B3pez_Michelsen.png",
+  41: "https://enciclopedia.banrepcultural.org/images/5/5f/Indalecio_Lievano_Aguirre.jpg",
   42: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Julio_C%C3%A9sar_Turbay_Ayala.jpg",
   44: "https://upload.wikimedia.org/wikipedia/commons/5/55/Belisario_Betancur_1985.jpg",
   45: "https://upload.wikimedia.org/wikipedia/commons/d/d5/President_Virgilio_Barco.png",
