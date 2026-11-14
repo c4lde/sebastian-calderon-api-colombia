@@ -41,7 +41,8 @@ body {
   border-radius: 6px;
 }
 
-.menu a:hover {
+.menu a:hover,
+.menu a.activo {
   background-color: #fcd116;
   color: #003893;
 }
