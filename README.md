@@ -41,6 +41,10 @@ Algunas imágenes de presidentes que entrega la API no cargan o no existen, porq
 ├── js/
 │   ├── departamentos.js
 │   └── presidentes.js
+├── capturas/
+│   ├── index.png
+│   ├── departamentos.png
+│   └── presidentes.png
 └── README.md
 ```
 
@@ -57,6 +61,20 @@ Algunas imágenes de presidentes que entrega la API no cargan o no existen, porq
 4. Navegar entre las secciones desde el menú superior.
 
 Se necesita conexión a internet para consultar la API.
+
+## Capturas
+
+### Inicio
+
+![Página de inicio](capturas/index.png)
+
+### Explorador de departamentos
+
+![Explorador de departamentos](capturas/departamentos.png)
+
+### Presidentes de Colombia
+
+![Presidentes de Colombia](capturas/presidentes.png)
 
 ## Estudiante
 
