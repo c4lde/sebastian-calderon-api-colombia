@@ -183,3 +183,26 @@ body {
   color: #555555;
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .encabezado {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .secciones {
+    grid-template-columns: 1fr;
+  }
+
+  .contenido {
+    padding: 20px 16px;
+  }
+}
